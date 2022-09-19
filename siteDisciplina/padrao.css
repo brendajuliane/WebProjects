@@ -22,6 +22,16 @@ header {
     height: 70px;
     width: 100%;
 }
+.menuBoxItem {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuBoxItem:hover {
+    background-color: rgba(1, 1, 106, 0.276);
+}
 #logo {
     position: fixed;
     left: 15px;
@@ -30,7 +40,7 @@ header {
 }
 menu {
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 .menuItem {
     font-weight: 100;
@@ -76,7 +86,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin: 10px;
+    margin: 8px;
 }
 .informationBox {
     max-width: 65%;
