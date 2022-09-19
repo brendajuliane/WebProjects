@@ -14,7 +14,6 @@ html, body {
 
 /*---------------- header ----------------*/
 header {
-    /* position: fixed;  */
     background-color: #2A68AF;
     display: flex;
     align-items: center;
@@ -24,7 +23,7 @@ header {
 }
 .menuBoxItem {
     height: 70px;
-    width: 70px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +39,7 @@ header {
 }
 menu {
     display: flex;
-    gap: 30px;
+    gap: 15px;
 }
 .menuItem {
     font-weight: 100;
