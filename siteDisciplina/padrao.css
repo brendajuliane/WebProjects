@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+html, body {
+    height: 100vh;
+    width: 100%;
+}
+
+/*---------------- header ----------------*/
+header {
+    /* position: fixed;  */
+    background-color: #2A68AF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+}
+#logo {
+    position: fixed;
+    left: 15px;
+    top: 15px;
+    color: white;
+}
+menu {
+    display: flex;
+    gap: 50px;
+}
+.menuItem {
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+}
+#logoUnicamp {
+    height: 60px;
+    position: fixed;
+    right: 15px;
+    top: 2px;
+}
+
+/*---------------- main ----------------*/
+main {
+    height: 100%;
+    background-image: url("img/imgCode.png");
+    background-repeat: repeat;
+    background-size: 60%;
+}
+.darkScreen {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.mainTxt {
+    color: white;
+    font-size: 30pt;
+    text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.514);
+}
+#biggestTxt {
+    font-size: 42pt;
+}
+.informationSection {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    overflow-y: scroll;
+}
+.informationBox {
+    max-width: 65%;
+}
+.title {
+    text-align: center;
+    margin: 15px;
+}
+
+.information {
+    text-align: justify;
+    line-height: 30px;
+}
+
+/*---------------- footer ----------------*/
+footer {
+    background-color: #2A68AF;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.byMe {
+    color: white;
+    font-weight: 100;
+    font-size: 14pt;
+}
