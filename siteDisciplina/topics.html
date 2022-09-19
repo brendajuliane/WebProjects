@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI401 - Programação Web</title>
+    <link rel="stylesheet" href="padrao.css">
+    <style>
+        #topicsDiv {
+            border-bottom: 2px solid white;
+        }
+        .referencesList {
+            display: flex;
+            flex-direction: column;           
+            text-align: justify;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1 id="logo">SI401</h1></a>
+        <nav>
+            <menu>
+                <ul><a class="menuItem" id="home" href="index.html"><div id="homeDiv" class="menuBoxItem">Home</div></a></ul>
+                <ul><a class="menuItem" id="about" href="about.html"><div id="aboutDiv" class="menuBoxItem">About</div></a></ul>
+                <ul><a class="menuItem" id="topics" href="topics.html"><div id="topicsDiv" class="menuBoxItem">Topics</div></a></ul>
+            </menu>
+        </nav>
+        <a href="https://www.unicamp.br/"><img id="logoUnicamp" src="img/logoUnicamp.png" alt="Logo da Unicamp (Universidade Estatual de Campinas)"></a>
+    </header>
+    <main>
+        <div class="darkScreen">
+            <section class="informationSection">
+                <div class="informationBox">
+                    <h2 class="title">Introdução</h2>
+                    <p class="information">
+                        Este tópico aborta de maneira geral o funcionamento da web, com foco nas
+                        interações navegador-servidor, e contextualiza a Programação para
+                        Web. Em linhas gerais, descreve os passos executados a cada
+                        requisição feita por um navegador a um servidor, interpretar uma
+                        mensagem HTTP 
+                    </p>
+                </div>
+                <div class="informationBox">
+                    <h2 class="title">HTML</h2>
+                    <p class="information">
+                        Apresenta o básico necessário sobre Hypertext Markup Language (HTML) 
+                        e estrutura de documentos HTML. Neste tópico vemos exemplos de elementos 
+                        HTML (parágrafos, títulos, imagens, hyperlinks, tabelas, listas e 
+                        iFrames) e formas de estruturar o conteúdo em layouts bem definidos.
+                    </p>
+                </div>
+                <div class="informationBox">
+                    <h2 class="title">CSS</h2>
+                    <p class="information">
+                        Na disciplina vemos também definições, sintaxe e formas de
+                        utilização do Cascade Style Sheets (CSS). A partir disso podemos
+                        construir folhas de estilo que definam a aparência de um
+                        documento HTML e compreender a formatação que será aplicada a um
+                        elemento HTML por regras CSS já criadas.
+                    </p>
+                </div>
+                <div class="informationBox">
+                    <h2 class="title">JavaScript</h2>
+                    <p class="information">
+                        Este tópico aborda a programação no front-end com JavaScript. 
+                        Vemos definições, sintaxe, instruções e o objeto DOM. Além disso, a
+                        detecção/reação a eventos e a manipulação de formulários HTML via JS 
+                        também são abordados.
+                    </p>
+                </div>
+                <div class="informationBox">
+                    <h2 class="title">PHP</h2>
+                    <p class="information">
+                        Neste tópico, Orientação a Objetos, acesso a Bancos de Dados, Cookies,
+                        e Sessões são abordados. Além disso, a comunicação assíncrona de Dados
+                        entre front-end e back-end é bordada.
+                    </p>
+                </div>
+                <div class="informationBox">
+                    <h2 class="title">Bibliografia básica</h2>
+                    <p class="information">
+                        <ul class="referencesList">
+                            <li>
+                                Schultz, D. & Cook, C. “Beginning HTML with CSS and XHTML – Modern Guide and Reference”. Apress,
+                                2007. DOI: http://dx.doi.org/10.1007/978-1-4302-0350-6 (acesso via VPN/Unicamp).
+                            </li>
+                            <li>
+                                McPeak, J. & Wilton, P. “Beginning JavaScript®”. 5th. Ed., John Wiley & Son, 2015. Disponível em:
+                                http://onlinelibrary.wiley.com/book/10.1002/9781119209423 (acesso via VPN/Unicamp).
+                            </li>
+                            <li>
+                                Saraiva, M. O. “Desenvolvimento de sistemas com PHP”. SAGAH, 2018. Disponível em:
+                                https://integrada.minhabiblioteca.com.br/books/9788595023222 (é necessário cadastro via
+                                Unicamp).
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <h2 class="byMe">by Brenda Juliane</h2>
+    </footer>
+</body>
+</html>
