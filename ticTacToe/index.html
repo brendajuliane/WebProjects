@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo da velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modalBackground">
+        <div class="modalContent">
+            <h2>Insira o nome dos jogadores</h2>
+            <form action="#" onsubmit="">
+                <input type="text" name="playerX" id="playerX">
+                <input type="text" name="playerO" id="playerO">
+                <button>ok</button>
+            </form>
+        </div>
+    </div>
+    <div class="darkScreen">
+        <main class="boardGame">
+            <div class="gameArea" id="b1"></div>
+            <div class="gameArea" id="b2"></div>
+            <div class="gameArea" id="b3"></div>
+            <div class="gameArea" id="b4"></div>
+            <div class="gameArea" id="b5"></div>
+            <div class="gameArea" id="b6"></div>
+            <div class="gameArea" id="b7"></div>
+            <div class="gameArea" id="b8"></div>
+            <div class="gameArea" id="b9"></div>
+        </main>
+        <footer>
+            <p>turn:</p>
+            <h2 id="playerTurn">Player</h2>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

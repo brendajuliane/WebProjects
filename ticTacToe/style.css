@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(128.92% 254.95% at -28.92% 50%, #C3E3FA 0%, rgba(255, 90, 159, 0.30) 100%), radial-gradient(100% 197.75% at 100% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.darkScreen {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*------------ modal ------------*/
+.modalBackground {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.modalContent {
+    width: 35%;
+    height: 40%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+}
+
+input {
+    height: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.263);
+}
+
+.playerX {
+    background: url("xModal.png");
+}
+
+button {
+    height: 25px;
+    width: 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+    background: #C3E3FA;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #aedaf9;
+}
+
+/*------------ gameaArea ------------*/
+.boardGame {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.gameArea {
+    height: 120px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.gameArea:hover {
+    background: rgba(0, 0, 0, 0.17);
+}
+
+#b4, #b5, #b6 {
+    height: 140px;
+}
+
+#b1, #b2, #b3, #b4, #b5, #b6 {
+    border-bottom: 5px solid white;
+} 
+
+#b1, #b2, #b4, #b5, #b7, #b8 {
+    border-right: 5px solid white;
+}
+
+/*------------ footer ------------*/
+footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
