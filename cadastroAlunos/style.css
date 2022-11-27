@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+html, body {
+    height: 100vh;
+    width: 100%;
+}
+
+/*---------------- header ----------------*/
+header {
+    background-color: #2A68AF;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 11%;
+    width: 100%;
+}
+
+#menuIcon {
+    background-color: #2A68AF;
+    padding: 15px;
+    position: fixed;
+    cursor: pointer;
+}
+
+#menu {
+    position: fixed;
+    background-color: #2a68af88;
+    height: 10%;
+    width: 20%;
+    padding: 10px;
+    display: none;
+}
+
+.menuItem {
+    color: white;
+    margin: 10px;
+}
+
+.menuItem:hover {
+    background-color: #2A68AF;
+}
+
+/*---------------- main ----------------*/
+main {
+    background-image: url("img/imgCode.png");
+    background-repeat: repeat;
+    background-size: 60%;
+    height: 89%;   
+}
+.darkScreen {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.informationSection {
+    background-color: white;
+    border-radius: 20px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 40%;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: light;
+    font-weight: 300;
+    color: #2A68AF;
+    font-size: 30pt;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.subFormDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.textBox {
+    border: solid 1px #2a68afa5;
+    border-radius: 10px;
+    height: 35px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.submitButton {
+    background-color: #2a68afcc;
+    border-radius: 30px;
+    height: 30px;
+    width: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #2A68AF;
+}
+
+/*---------------- footer ----------------*/
+footer {
+    background-color: #2A68AF;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.byMe {
+    color: white;
+    font-weight: 100;
+    font-size: 14pt;
+}
