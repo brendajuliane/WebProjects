@@ -27,9 +27,10 @@ header {
 
 #menuIcon {
     background-color: #2A68AF;
-    padding: 15px;
+    margin-left: 15px;
     position: fixed;
     cursor: pointer;
+    height: 20px;
 }
 
 #menu {
@@ -76,7 +77,8 @@ main {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 40%;
+    width: 50%;
+    max-height: 80%;
 }
 
 .title {

@@ -1,0 +1,2 @@
+a:7:{s:2:"RA";s:6:"248239";s:4:"nome";s:14:"Brenda Juliane";s:4:"sexo";s:3:"Fem";s:3:"tel";s:11:"11946817977";s:8:"endereco";s:19:"Rua fictícia, 743 ";s:5:"email";s:22:"b248239@dac.unicamp.br";s:5:"idade";s:2:"19";}
+a:7:{s:2:"RA";s:6:"123456";s:4:"nome";s:13:"Fulano de tal";s:4:"sexo";s:3:"Fem";s:3:"tel";s:11:"11923452345";s:8:"endereco";s:16:"Rua qualquer 987";s:5:"email";s:18:"qualquer@gmail.com";s:5:"idade";s:2:"32";}

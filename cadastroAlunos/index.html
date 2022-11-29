@@ -9,29 +9,31 @@
 </head>
 <body>
     <header>
-        <button onclick="activeMenu()" id="menuIcon"><img src="img/menu.png" alt="icone para acesso ao menu"></button>
+        <button onclick="activeMenu()" id="menuIcon"><img style="height: 20px;" src="img/menu.png" alt="icone para acesso ao menu"></button>
+        <img style="width: 50px; align-self: center;" src="img/logoUnicamp.png" alt="logo da unicamp">
     </header>
     <nav id="menu">
         <menu>
             <li><a class="menuItem" href="index.html">Cadastre-se</a></li>
-            <li><a class="menuItem" href="base.html">Alunos cadastrados</a></li>
+            <li><a class="menuItem" href="base.php">Alunos cadastrados</a></li>
         </menu>
     </nav>
     <main>
         <div class="darkScreen">
             <section class="informationSection">
                 <h1 class="title">Cadastro</h1>
-                <form action="index.html" method="post"></form>
+                <form action="base.php" method="post">
                     <div class="formDiv">
                         <div class="subFormDiv">
-                            <input type="text" class="textBox" placeholder="Nome" name="nome" required>
                             <input type="text" class="textBox" placeholder="RA" name="RA" required>
-                            <select name="Sexo" class="textBox" id="dropDown" required>
-                                <option value="Feminino">Feminino</option>
-                                <option value="Masculino">Masculino</option>
+                            <input type="text" class="textBox" placeholder="Nome" name="nome" required>
+                            <select name="sexo" class="textBox" id="dropDown" required>
+                                <option label="Sexo"></option>
+                                <option value="Fem">Feminino</option>
+                                <option value="Mas">Masculino</option>
                                 <option value="None">Prefiro não informar</option>                              
                             </select>
-                            <input type="text" class="textBox" placeholder="Telefone" name="telefone" required>
+                            <input type="text" class="textBox" placeholder="Telefone" name="tel" required>
                         </div>
                         <div class="subFormDiv">
                             <input type="text" class="textBox" placeholder="Endereço" name="endereco" required>

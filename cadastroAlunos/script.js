@@ -14,3 +14,7 @@ function activeMenu() {
     menu.style.display = "flex";
     menu.value = 1;
 }
+
+function exibeModal(id) {
+    document.getElementById("baseDiv").innerHTML = `<?php exibeModal(${id}); ?>`;
+}
