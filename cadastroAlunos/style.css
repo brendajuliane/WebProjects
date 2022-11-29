@@ -19,7 +19,7 @@ header {
     background-color: #2A68AF;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     justify-content: center;
     height: 11%;
     width: 100%;
@@ -83,7 +83,6 @@ main {
 
 .title {
     font-family: 'Open Sans', sans-serif;
-    font-style: light;
     font-weight: 300;
     color: #2A68AF;
     font-size: 30pt;
